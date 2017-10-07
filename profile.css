@@ -1,0 +1,222 @@
+/*###############################################################
+##################### Header####################################
+##############################################################*/
+
+html {
+	background: url("http://ak0.picdn.net/shutterstock/videos/4865030/thumb/1.jpg?i10c=img.resize(height:160)");
+}
+
+/*"https://t3.ftcdn.net/jpg/01/44/02/92/240_F_144029244_kUimvqBJe6sTZ86DCCBeFSMCf0Eli4vI.jpg"*/
+
+html:hover {
+	background: #808277;
+}
+
+/*"http://orig07.deviantart.net/0a1a/f/2010/093/2/1/ascii_naruto_by_pulvinar.jpg"*/
+
+/*###############################################################
+##################### Body####################################
+##############################################################*/
+
+#bio {
+	background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/bright-orange-gear-circuit-board-and-arrows-tech-background-video-animation-hd-1920x1080_v0br3penx__F0003.png");
+
+}
+
+img	 {
+	
+	width: 30em;
+	border-radius: 50%;
+	float: right;
+    margin: 0 0 10px 10px;
+    
+}
+
+
+
+p {
+  color: #487782;
+  font-size: 25pt;
+}
+
+h1, h2 {
+	text-indent: 60px;
+	color: #e5852b;
+	font-family: Impact;	
+
+}
+
+section {
+	
+    /*background-color: #CCCCD4;*/
+    background-size: cover;
+    opacity: 1;
+}
+
+section:hover {
+	opacity:	0.9;
+}
+
+#name{
+	font-size: 40pt;
+}
+#social {
+	font-size: 25pt;
+	background-image: url("https://ak9.picdn.net/shutterstock/videos/12889529/thumb/1.jpg");
+	width: 25%;
+	height: 50%;
+	opacity: 1;
+
+
+}
+
+a:visited {
+	color:	#60bcae; 
+}
+a:hover {
+	color: white;
+
+
+}
+#social:hover{
+	opacity: 0.9;
+}
+
+#projects {
+	font-size: 25pt;
+	background-image: url("http://ak6.picdn.net/shutterstock/videos/6138206/thumb/1.jpg");
+	width: 25%;
+	height: 50%;
+	opacity: 1;
+}
+#projects:hover {
+	opacity: 0.9;
+}
+#activities {
+	font-size: 25pt;
+	background-image: url("https://ak9.picdn.net/shutterstock/videos/12889529/thumb/1.jpg");
+	width: 25%;
+	height: 50%;
+	opacity: 1;
+}
+#activities:hover {
+	opacity: 0.9;
+	}
+#todo {
+	font-size: 25pt;
+	background-image: url("http://ak6.picdn.net/shutterstock/videos/6138206/thumb/1.jpg");
+	width: 25%;
+	height: 50%;
+	opacity: 1;
+
+}
+#todo:hover {
+	opacity: 0.9;}
+
+.flexed {
+	display: flex;
+
+}
+
+section#projects h2 {
+	margin-left: -40px;
+}
+
+section#activities h2 {
+	margin-left: -40px;
+}
+
+section#todo h2 {
+	margin-left: -40px;
+}
+
+
+
+
+section#bio h1 {
+
+	font-size:  40pt;
+}
+
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Helvetica';
+}
+
+section#projects, #social, #activities, #todo {
+    min-height: 550px;
+}
+
+
+/*###############################################################
+##################### Footer####################################
+##############################################################*/
+
+
+
+
+
+
+#contact {
+	background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/bright-orange-gear-circuit-board-and-arrows-tech-background-video-animation-hd-1920x1080_v0br3penx__F0003.png");
+	width:  100%;
+	height: 100%;
+	font-size: 15pt;
+
+}
+
+.roswell {
+	font-size: 	20pt;
+	color:	#CCB6A3;
+	font-family: impact;	
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #808277;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #808277;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #808277;
+    padding: 20px;
+}
+
+
+/*grunt.initConfig({
+  cssstats: {
+    options: {
+      csslint: false,
+    },
+    your_target: {
+      csslint: 'path/to/ruleset.json'
+    },
+  },
+});*/
